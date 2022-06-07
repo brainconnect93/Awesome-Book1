@@ -1,5 +1,5 @@
 import { showBookList, showForm, showContact } from './modules/index1.js';
-import { DateTime } from './luxon.js';
+import { DateTime } from './modules/luxon.min.js';
 
 const bookTitle = document.querySelector('#book-title');
 const bookAuthor = document.querySelector('#book-author');
