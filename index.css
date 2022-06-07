@@ -78,7 +78,7 @@ a:hover {
   margin: 20px 0;
   font-size: 34px;
   font-weight: bold;
-  font-family: sans-serif;
+  font-family: cursive;
 }
 
 #bookList {
@@ -94,7 +94,7 @@ a:hover {
   justify-content: space-between;
   padding: 10px 20px;
   font-size: 20px;
-  font-family: sans-serif;
+  font-family: cursive;
   width: 100%;
 }
 
