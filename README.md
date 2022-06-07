@@ -8,7 +8,7 @@ The code is divided into modules and each module is saved in a separate file in 
 
 ## Live Demo
 
-[link to live demo]()
+[link to live demo](https://brainconnect93.github.io/Awesome-Book1/)
 
 > Awesome-Book1: Refractor to use JavaScript modules and ES6 Syntax.
 
