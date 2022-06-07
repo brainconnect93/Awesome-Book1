@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+      <header>
+          <nav class="nav-head">
+              <h2>Awesome Books</h2>
+              <ul class="nav-item">
+                  <li class="nav-link" id="list"><a href="#">List</a></li>
+                  <li class="nav-link" id="new"><a  href="#">Add new</a></li>
+                  <li class="nav-link" id="cont"><a href="#">Contact</a></li>
+              </ul>
+          </nav>
+      </header>
+      <div id="current-date"></div>
+
+    <section id="bookss">
+      <div id="id1" class="display">
+        <h1 id="booklist">All Awesome Books</h1>
+      <!-- books list-->
+      <div id="bookList"></div>
+      <hr>
+      </div>
+      <!-- Form to instert books -->
+      <form method="post" id="addBook">
+        <h2>Add a new book</h2>
+        <!-- Book Title -->
+        <input
+          type="text"
+          name="title"
+          id="book-title"
+          placeholder="Title"
+          required
+        />
+        <br /><br>
+        <!-- Author name -->
+        <input
+          type="text"
+          name="author"
+          id="book-author"
+          placeholder="Author"
+          required
+        />
+        <br> <br>
+        <button type="button" id="add">Add</button>
+      </form>
+    </section>
+    <section id="contact">
+        <div class="cont-head">
+            <h1>Contact Information</h1>
+            <p>Do you have any question or you just want to say "Hello"? <br> You can reach out to us!</p>
+            <ul>
+                <li>Our e-mail: mail@mail.com</li>
+                <li>Our phone number: 0043586534422</li>
+                <li>Our address: Streetname 22, 84503 City, Country</li>
+            </ul>
+        </div>
+    </section>
+    <footer id="copyright">
+      <p class="copyright-paragraph">Copyright - Awesome Books 2022</p>
+      </footer>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
