@@ -78,7 +78,6 @@ const now = DateTime.now();
 document.getElementById('current-date').innerHTML = now.toLocaleString(DateTime.DATETIME_MED);
 
 // Display the right section
-/* eslint-disable no-unused-vars */
 
 const list = document.querySelector('#list');
 const addNew = document.querySelector('#new');
